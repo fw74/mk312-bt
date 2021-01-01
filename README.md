@@ -1,3 +1,14 @@
+# Jan 2021 update
+The "original" branch of this repository matches the main metafetish/mk312-bt repo at the point it was deleted (which was on or 
+about 27th Dec 2020), with zero changes. This represents the mk312-bt that many (myself included) have successfully built.
+
+## v1.4
+This master branch includes v1.4 files which were never in the original repo, but were kindly DM'd to me shortly after the original 
+repo was deleted. These v1.4 files do not include updated eagle source files, etc., only output gerbers/schematics/notes. I'm 
+somewhat hazy about the provenance of the v1.4 files, but I understand it has been successfully built by a few people already, and 
+implements various improvements over v1.3 (see the v1.4 [notes](https://github.com/CrashOverride85/mk312-bt/blob/master/gerbers/MK-312BT%20V1.4%2005-19-2019%20Notes.txt) 
+file for details and before ordering parts).
+
 # MK-312BT V1.3
 
 Documentation at : http://tinyurl.com/mk312bt-info
@@ -22,8 +33,8 @@ Preferred board house is https://jlcpcb.com
 
 You'll need 2 gerber zip files from the gerbers directory (click links below to download):
 
-- [MK-312 V1.2 Front Panel](https://github.com/buttshock/mk312-bt/blob/master/gerbers/ZIP%20FILES/MK-312BT%20Front%20Panel%20V1.2%20Gerber.zip?raw=true)
-- [MK-312 V1.3 Main Board](https://github.com/buttshock/mk312-bt/blob/master/gerbers/ZIP%20FILES/MK-312BT%20Main%20Boards%20V1.3%20Gerber.zip?raw=true)
+- [MK-312 V1.2 Front Panel](https://github.com/CrashOverride85/mk312-bt/blob/master/gerbers/ZIP%20FILES/MK-312BT%20Front%20Panel%20V1.2%20Gerber.zip?raw=true)
+- [MK-312 V1.3 Main Board](https://github.com/CrashOverride85/mk312-bt/blob/master/gerbers/ZIP%20FILES/MK-312BT%20Main%20Boards%20V1.3%20Gerber.zip?raw=true)
 
 **NOTE:** Order Front Panel and Main Board as seperate items (but they
 can be in the same cart), due to difference in "Different Design"
@@ -183,7 +194,7 @@ AT+IPSCAN=1024,1,1024,1
 ```
 
 To do this automatically:
-1. Solder Pin32 of the HC05 module (See [bluetooth/HC05PINOUT.PNG](https://github.com/buttshock/mk312-bt/blob/master/bluetooth_conf/HC05PINOUT.png) for reference)
+1. Solder Pin32 of the HC05 module (See [bluetooth/HC05PINOUT.PNG](https://github.com/CrashOverride85/mk312-bt/blob/master/bluetooth_conf/HC05PINOUT.png) for reference)
 2. Flash the included bin file onto the ATMEGA16
 3. Plug the HC-05 bluetooth radio into the board (ensure pin 32 is
    soldered to the carrier board)
