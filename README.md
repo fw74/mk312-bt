@@ -14,9 +14,9 @@ file for details and before ordering parts).
 Documentation at : http://tinyurl.com/mk312bt-info
 
 ~~Forum - now archived/read-only, but with a lot of potentially useful information: https://metafetish.club ([Estim Specific Category Here](https://metafetish.club/c/estim), but may not include all estim messages)~~
-Now offline. See a few posts in the [docs](docs/) folder that my help or be of interest.
+Now offline. See a few posts in the [docs](docs/) folder that may help or be of interest.
 
-There are many people familiar / knowledgable on the MK312-BT in the #diy-control-boxes channel of [Joanne's E-Stim Community](https://discord.gg/rY8C27S) discord server.
+There are many people familiar / knowledgable on the MK312-BT in the #boxes-pulse-based-diy and #312-chat channels of [Joanne's E-Stim Community](https://discord.gg/rY8C27S) discord server.
 
 
 ## Parts ordering information
